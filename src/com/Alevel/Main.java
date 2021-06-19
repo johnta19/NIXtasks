@@ -2,8 +2,8 @@ package com.Alevel;
 
 public class Main {
 
-    static void fromLeftToRight(int number){
-        System.out.println("---From left to right---");
+    static void fromRightToLeft(int number){
+        System.out.println("---From right to left---");
         int newNumber;
         while (number > 0) {
             newNumber = number % 10;
@@ -23,8 +23,8 @@ public class Main {
         }
     }
 
-    static void fromRightToLeft(int number){
-        System.out.println("---From right to left---");
+    static void fromLeftToRight(int number){
+        System.out.println("---From left to right---");
         String s = Integer.toString(number);
         char[] abc = s.toCharArray();
         for (int i = 0; i < s.length(); i++) {
